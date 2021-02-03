@@ -15,7 +15,7 @@
  * 5. Créez une page bio.php et tentez d'afficher le cookie username sur cette page.
  */
 // TODO Votre code ici.
-setcookie('username', 'Gaetan', time() + 180000, "/", 'localhost');
+setcookie('username', 'Gaetan', 180000, "/", 'localhost');
 if(isset($_COOKIE['username'])){
     echo "Le cookie username a été généré !";
 }else{
